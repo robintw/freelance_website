@@ -1,9 +1,27 @@
+# Makes all pages use the default.html template, unless otherwise specified
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
 
+url: "http://rtwilson.com"
+title: "Dr Robin Wilson - Freelancer"
+description: "Dr Robin Wilson is a freelancer in Remote Sensing, GIS, Data Science and Python"
+
+twitter:
+  username: sciremotesense
+  card: summary
+
+exclude: ['upload.sh']
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-53911609-6         # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-analytics
