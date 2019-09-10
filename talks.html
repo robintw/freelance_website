@@ -1,0 +1,133 @@
+---
+title: Talks
+---
+
+<!-- START THE FEATURETTES -->
+<p class='lead pt-4'>I regularly give talks to a range of audiences, including local science groups, schools and programming conferences.
+    Below is a list of my currently available talks - and I may be willing to write a new talk for your group. Please <a href="mailto:robin@rtwilson.com">email me</a>
+    for more details, or to invite me to speak.
+</p>
+<p class='lead'>
+    Feedback from audiences has been very good. I’ve won the 'best talk' prize at a number of events including the
+    <a href='https://cmg.soton.ac.uk'>Computational Modelling Group</a> at the <a href='http://www.soton.ac.uk'>University of Southampton</a>,
+    the <a
+        href='http://sccs2015.soton.ac.uk/'>Student Conference on Complexity Science</a>, and <a
+            href='https://www.euroscipy.org'>EuroSciPy</a>. A local science group recently wrote:
+</p>
+
+<blockquote class="blockquote pt-1">
+    <p class="mb-0">"The talk that Robin gave to our group was excellent.
+        The clever animated video clips, accompanied by a clear vocal description gave an easily-understood picture of
+        the
+        underlying principles involved. The wide range of topics taken from situations familiar to everyone made the
+        examples
+        pertinent to all present and maintained their interest throughout. A thoroughly enjoyable and thought provoking
+        talk."</p>
+    <footer class="blockquote-footer">Sheila Goater, co-ordinator of Hampshire Science Group</footer>
+</blockquote>
+
+<hr class="featurette-divider">
+
+<h1 class='featurette-heading talk-header pb-3'>Science/Technology talks</h1>
+
+{% include experience_feature.html
+    title="Monitoring the environment from space"
+    text="Hundreds of satellites orbit the Earth every day, collecting data that is used for monitoring almost all
+    aspects of the environment. This talk will introduce to you the world of satellite imaging, take you beyond the
+    'pretty pictures' to the scientific data behind them, and show you how the data can be applied to monitor plant
+    growth, air pollution and more."
+    image="assets/images/Talk_MonitoringEnv.png"
+%}
+
+{% include experience_feature.html
+    title="From segregation to sand dunes: complex systems in the world around us"
+    text="'Complex' systems are all around us, and are often difficult to understand and control. In this talk you will
+    be introduced to a range of complex systems including segregation in cities, sand dune development, traffic jams,
+    weather forecasting, the cold war and more – and will show how looking at these systems in a decentralised way can
+    be useful in understanding and controlling them."
+    image="assets/images/Talk_Complexity.png"
+%}
+
+{% include experience_feature.html
+    title="Learning from accidents: an introduction to railway signalling in the UK"
+    text="Trains are one of the safest ways to travel, but it hasn't always been like that. In this talk I will
+    introduce the basics of railway signalling, and look at how it has evolved over time - often in response to
+    accidents and near-misses. You will find out how a single stray wire caused an accident that killed 35 people, why
+    leaves on the line cause such a problem for the railways, and how signalling systems are designed to deal with the
+    inevitable human error."
+    image="assets/images/Talk_Signalling.png"
+%}
+
+<h1 class='featurette-heading talk-header pb-3'>Programming talks</h1>
+
+{% include experience_feature.html
+    title="Writing Python to process millions of row of mobile data – in a weekend"
+    text="In April 2015 there was a devastating earthquake in Nepal. I was given the unenviable task of
+    processing millions of rows of mobile phone call records to extract preliminary information on population
+    movement - all in a weekend! This talk is the story of
+    how I wrote Python to do this, and what can be learnt from his experience."
+    image="assets/images/Talk_Flowminder.png"
+%}
+
+<!-- Along the way I'll show how
+Python enables rapid development, introduce some lesser-used built-in data structures, explain how strings and
+dictionaries work, and show a slightly different approach to data processing. -->
+
+{% include experience_feature.html
+    title="xarray: the power of pandas for multidimensional arrays"
+    text="In this talk I will introduce the xarray library by showing how just a few lines of code can answer questions about
+    my multi-dimensional satellite data that would take a lot of complex code to answer with pure numpy –
+    questions like 'What is the average air quality in March?', 'What is the time series of air quality in Southampton?'
+    and 'What is the seasonal average air quality for each census output area?'. I will introduce the fundamental xarray
+    data types, and show how indexes can be added to raw arrays to fully utilise the power of xarray. I will discuss how
+    to get data in and out of xarray, and how xarray can use dask for high-performance data processing on multiple
+    cores, or distributed across multiple machines."
+    image="assets/images/Talk_XArray.png"
+%}
+
+{% include experience_feature.html
+    title="recipy: effortless provenance in Python"
+    text="Imagine the situation: You’ve written some wonderful Python code which produces a beautiful graph.
+    You save that output, naturally enough, as awesome_output.png. You run the code a couple of times, each
+    time making minor modifications. You come back to it
+    the next week/month/year. Do you know how you created that output? What input data? What version of your code? If
+    you’re anything like me then the answer will often, frustratingly, be 'no'.
+
+    This talk will introduce recipy, a Python module that will save you from this situation! With the addition of a
+    single line of code to the top of your Python files, recipy will log each run of your code to a database, keeping
+    track of all of your input files, output files and the code that was used – as well as a lot of other useful
+    information. You can then query this easily and find out exactly how that output was created."
+    image="assets/images/Talk_Recipy.png"
+%}
+
+<h1 class='featurette-heading talk-header pb-3'>School lessons/talks</h1>
+
+{% include experience_feature.html
+    title="Decentralised systems, complexity theory, self-organisation and more"
+    text="This talk/lesson is very similar to my complex systems talk described above, but is altered to make it more
+    suitable for use in schools. So far I have run this as a lesson as part of the International Baccalaureate Theory of
+    Knowledge (TOK) course, but it would also be suitable for A-Level students studying a wide range of subjects."
+    image="assets/images/Talk_Complexity.png"
+%}
+
+{% include experience_feature.html
+    title="GIS/Remote sensing for geographers"
+    text="I’ve run a number of lessons for sixth form geographers introducing them to the basics of GIS and remote
+    sensing. These topics are often included in the curriculum for A-Level or equivalent qualifications, but it’s often
+    difficult to teach them without help from outside experts. In this lesson I provide an easily-understood
+    introduction to GIS and remote sensing, taking the students from no knowledge at all to a basic understanding of the
+    methods involved, and then run a discussion session looking at potential uses of GIS/RS in topics they have recently
+    covered. This discussion session really helps the content stick in their minds and relates it to the rest of their
+    course."
+    image="assets/images/Talk_GISRS.png"
+%}
+
+{% include experience_feature.html
+    title="Computing"
+    text="As an experienced programmer, and someone with formal computer science education, I have provided input to a
+    range of computing lessons at sixth-form level. This has included short talks and part-lessons covering various
+    programming topics, including examples of ‘programming in the real world’ and discussions on structuring code for
+    larger projects. Recently I have provided one-on-one support to A-Level students on their coursework projects,
+    including guidance on code structure, object-oriented design, documentation and GUI/backend interfaces."
+    image="assets/images/Talk_Computing.png"
+%}

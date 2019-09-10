@@ -2,7 +2,11 @@
   link: /
 - name: Experience
   link: /experience.html
+- name: Talks
+  link: /talks.html
 - name: Testimonials
   link: /testimonials.html
-- name: Contact
-  link: /contact.html
+- name: Blog
+  link: http://www.blog.rtwilson.com
+- name: Email me!
+  link: mailto:robin@rtwilson.com
